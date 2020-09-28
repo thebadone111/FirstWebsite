@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+header {
+  background-color: white;
+  display: flex;
+  margin: 10px;
+  padding: 15px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h1 {
+  font-size: 800%;
+  font-family: "Cinzel", serif;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+  font-size: 2em;
+  color: white;
+  padding: 30px;
+}
+li a:hover {
+  background-color: rgb(56, 56, 56);
+}
+div.sticky {
+  position: sticky;
+  top: 0;
+  background-color: grey; /*128,128,128 */
+  padding: 20px;
+  margin: 15px;
+  border-style: solid;
+  border-radius: 8px;
+}
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 4em;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+}
+.intro {
+  text-align: center;
+}
+.intro img {
+  width: 99%;
+  height: 99%;
+}
+article {
+  padding: 40px;
+  margin: 20px;
+  border: solid;
+}
+
+img {
+  border-style: solid;
+}
+
+.early div {
+  display: flex;
+  justify-content: center;
+}
+.early div img {
+  order: 1;
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+}
+.school div {
+  display: flex;
+  justify-content: center;
+}
+.school div img {
+  order: 0;
+  margin: 10px;
+  max-width: 150%;
+  height: auto;
+}
+.present div {
+  display: flex;
+  justify-content: center;
+}
+.present div img {
+  order: 1;
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+}
+.future div:first-of-type {
+  display: flex;
+  justify-content: center;
+}
+.fut1 img {
+  order: 1;
+  margin: 10px;
+  max-width: 20%;
+  height: auto;
+}
+.future div:last-of-type {
+  display: flex;
+  justify-content: center;
+}
+.fut2 img {
+  order: 1;
+  margin: 10px;
+  max-width: 30%;
+  height: auto;
+}
+h3 {
+  float: right;
+  margin: 0px 15px 15px 0px;
+}
